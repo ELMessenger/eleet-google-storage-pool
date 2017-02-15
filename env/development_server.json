@@ -1,0 +1,24 @@
+{
+  "redis": {
+    "master": {
+      "host": "127.0.0.1",
+      "port": 6379,
+      "password": ""
+    },
+
+    "slave": {
+      "host": "127.0.0.1",
+      "port": 6379,
+      "password": ""
+    }
+  },
+
+  "POOL_SIZE": 1000,
+  "INTERVAL": 100,
+
+  "gcs": {
+    "bucket": "eleet",
+    "projectId": "eleet-1217",
+    "keyFilename": "keys/google-storage.json"
+  }
+}

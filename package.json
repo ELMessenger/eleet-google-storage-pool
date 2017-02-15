@@ -1,0 +1,26 @@
+{
+  "name": "eleet-google-storage-pool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^0.7.0",
+    "bluebird": "^3.4.7",
+    "co": "^4.6.0",
+    "ioredis": "^2.5.0",
+    "nconf": "^0.8.4",
+    "random-bytes": "^1.0.0",
+    "random-token": "0.0.8"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "ioredis-mock": "^2.2.0",
+    "mocha": "^3.2.0",
+    "then-redis": "^2.0.1"
+  }
+}

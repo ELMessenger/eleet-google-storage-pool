@@ -1,0 +1,24 @@
+{
+  "redis": {
+    "master": {
+      "host": "p-c1r1.elt",
+      "port": 6379,
+      "password": "JNdSCnW6nIxppM1FlfA50t3Nie1HCuAYpJbainVyBQXKW5wQaOMq2d0W12MmzvmU"
+    },
+
+    "slave": {
+      "host": "p-c1r2.elt",
+      "port": 6379,
+      "password": "Es3T1eeUvuUyR0PbQM5ehsoiQcQGfAn5hGJdft2i1dtSS4FT5gX4LdeqowOzLtGn"
+    }
+  },
+
+  "POOL_SIZE": 1000,
+  "INTERVAL": 100,
+
+  "gcs": {
+    "bucket": "eleet",
+    "projectId": "eleet-1217",
+    "keyFilename": "keys/google-storage.json"
+  }
+}
