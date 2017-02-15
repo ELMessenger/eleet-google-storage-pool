@@ -1,0 +1,6 @@
+apps:
+  - script : server.js
+    name   : eleet-google-storage-pool
+    watch  : true
+    env    :
+      NODE_ENV: staging
