@@ -10,14 +10,16 @@ const pubClient = new Redis({
     port: config.get('redis:master:port'),
     host: config.get('redis:master:host'),
     family: 4,
-    password: config.get("redis:master:password")
+    password: config.get("redis:master:password"),
+    //db: config.get(`redis:prefix`) + config.get('redis:dbname')
 });
 
 const subClient = new Redis({
     port: config.get('redis:slave:port'),
     host: config.get('redis:slave:host'),
     family: 4,
-    password: config.get("redis:slave:password")
+    password: config.get("redis:slave:password"),
+    //db: config.get(`redis:prefix`) + config.get('redis:dbname')
 });
 
 const server = new ServerPool({

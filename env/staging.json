@@ -1,5 +1,7 @@
 {
   "redis": {
+    "prefix": "elv2",
+    "dbname": "files",
     "master": {
       "host": "p-c1r1.elt",
       "port": 6379,

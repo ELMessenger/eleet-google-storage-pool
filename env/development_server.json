@@ -1,5 +1,7 @@
 {
   "redis": {
+    "prefix": "server_20",
+    "dbname": "files",
     "master": {
       "host": "127.0.0.1",
       "port": 6379,

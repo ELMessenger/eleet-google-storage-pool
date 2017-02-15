@@ -1,5 +1,7 @@
 {
   "redis": {
+    "prefix": "server_20",
+    "dbname": "files",
     "master": {
       "host": "127.0.0.1",
       "port": 6379,
@@ -13,7 +15,7 @@
     }
   },
 
-  "POOL_SIZE": 1000,
+  "POOL_SIZE": 10,
   "INTERVAL": 100,
 
   "gcs": {
