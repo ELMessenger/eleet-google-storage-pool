@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@google-cloud/storage": "^0.7.0",
-    "bluebird": "^3.4.7",
+    "bluebird": "^3.5.0",
     "co": "^4.6.0",
     "ioredis": "^2.5.0",
     "nconf": "^0.8.4",
